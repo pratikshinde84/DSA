@@ -131,7 +131,7 @@ int main() {
     int choice, data, pos;
 
     while (1) {
-        printf("\n1. Insert at beginning\n2. Insert at end\n3. Insert at position\n4. Delete at beginning\n5. Delete at end\n6. Delete at position\n7. Display\n8. Exit\n");
+        printf("\n1. Insert at beginning  2. Insert at end\n3. Insert at position  4. Delete at beginning\n5. Delete at end  6. Delete at position\n7. Display  8. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
 

@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include<conio.h>
 int main() {
     int n;
 
@@ -24,5 +24,8 @@ int main() {
 
     printf("Updated element at index %d to %d\n", index, arr[index]);
 
-    return 0;
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    getch();
 }
