@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define MAX_SIZE 5
+#define MAX_SIZE 3
 
 int queue[MAX_SIZE];
 int front = -1, rear = -1;
