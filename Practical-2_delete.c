@@ -5,11 +5,9 @@ int main() {
     int arr[SIZE];
     int n = 10;
     int choice, position;
-
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-
     do {
         printf("\nMenu:\n");
         printf("1. Delete from Beginning\n");
@@ -26,11 +24,9 @@ int main() {
                     }
                     n--;
                 break;
-
             case 2:
                     n--;
                 break;
-
             case 3:
                     printf("Enter position (1 to %d): ", n);
                     scanf("%d", &position);
